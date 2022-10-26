@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="suit.css" rel="stylesheet" type="text/css" />
+    <title>Suit</title>
+  </head>
+
+  <body class="text-center">
+    <div class="card">
+        <h1>Suit</h1>
+        <p>Klik Untuk Main</p>
+        <div class="mx-auto">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark" id="gunting">Gunting</button>
+                <button type="button" class="btn btn-light" id="batu">Batu</button>
+                <button type="button" class="btn btn-dark" id="kertas">Kertas</button>
+            </div>
+            <p id="play"></p>
+            <p id="result"></p>
+            <p>Menang : <span id="hmenang">0</span> || Kalah : <span id="hkalah">0</span> || Seri : <span id="hseri">0</span></p>
+        </div>
+        <button type="button" class="btn btn-danger" id="reset"> Reset History </button>
+        <script src="suit.js"></script>
+    </div>
+  </body>
+</html>
